@@ -1,0 +1,114 @@
+
+ /*=============== Arabic language ===============*/
+ body.AR{
+ 
+    /*=============== Home ===============*/
+    .home{
+     direction: rtl;
+ 
+ 
+     .home__discription b {
+       background: linear-gradient(-90deg, hsla(14, 98%, 50%, 0.3), hsla(14, 98%, 50%, 0));
+     }
+ 
+   .home__discription {
+  
+     padding-right: 3rem;
+   }
+   .home__discription::after {
+     content: "";
+     right: 0;
+   }
+ 
+ 
+  
+  
+    }
+ 
+    @media screen and (min-width: 1150px) {
+     .home__arrow {
+       right: -8rem;
+       rotate: -20deg;
+     }
+     .home__shadow {
+       right: 1.25rem;
+       bottom: -1.25rem;
+       border: 6px solid var(--black-color);
+     }
+     .home__Line {
+       right: -15rem;
+       rotate: 90deg;
+     }
+     .home__social {
+       right: initial;
+       left: -6rem;
+     }
+       .home__perfil .geometric-box {
+       right: -0.7rem;
+     }
+ 
+    }
+
+
+     /*=============== About Me ===============*/
+     .about{
+        direction: rtl;
+        .about__description{
+            padding-right: 1rem;
+        }
+        .about__description::after {
+            right: -0.50rem;
+          }
+
+
+
+          @media screen and (min-width: 1150px){
+            .about__description{
+                padding-right: 0;
+            }
+            .about__description::after {
+                right: -3rem;
+              }
+          }
+     }
+
+/*=============== contact ===============*/
+     .contact{
+      direction: rtl;
+
+      .contant__data{
+        margin-left:0;
+        margin-right: auto; /* ---- */
+      }
+      .contant__data .geometric-box{
+        right: auto;
+        left: 2.5rem; /* ----- */
+      }
+      .contact__label{
+        left: auto;
+        right: 10px; /* -------- */
+      }
+
+      .contact__message{
+        right: 0; /* ----- */
+        left: auto;
+      }
+     }
+     
+     @media screen and (min-width: 1150px){
+  
+      .contant__data{
+        
+        margin: 7.5rem 8rem 0 0 !important; /* ---- */
+       }
+       .contact__social{
+        margin-left: auto;
+        margin-right: 8rem; /* ----- */
+ 
+       }
+       .contant__data .section__title-2{
+        margin: 0 0 3rem;
+        transform:  translateX(6.5rem) !important;
+       }
+     }
+ }

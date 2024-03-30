@@ -1,0 +1,42 @@
+ {
+  "name":{
+    "logo":"F",
+    "name":"Fady Fredy"
+  },
+  "header":{
+    "home":"home",
+    "Resume":"Resume",
+    "CampaignResults":"Campaign Results",
+    "contactMe":"contact ME"
+  },
+  "home":{
+    "discription_b":"Senior Performance Media Buyer",
+    "discription":"#1 Maximizing ROI with Proven Expertise in BTB and BTC Marketing",
+    "ScrollDown":"Scroll Down"
+    
+  },
+  "about":{
+    "aboutMe":"About Me.",
+    "description":"As a senior media buyer, I am passionate about helping businesses grow and achieve their goals through effective advertising and marketing strategies. With over 2 years and a half of experience in the field, I have worked across a range of industries, including real estate lead generation, cosmetics, clothes, gym, and e-commerce in the tech industry in Saudi Arabia",
+    "ContactMe":"Contact Me",
+    "CampaignResults":"Campaign Results.",
+    "Brands":"Brands I Have Worked With."
+
+  },
+  "Contact":{
+    "ContactMe":"Contact Me",
+    "contant_description1":"I will read all emails. Send me any message you want and I'll get back to you.",
+    "contant_description2":"I need your <b>Name</b> and <b>Email Address</b>, but you won't receive anything other than your reply."
+    ,"contact__title":"Send Me A Message",
+    "Messagesuccess":"Message sent successfully ✅",
+    "MessageError":"Message not sent (service error) ❌",
+    "sendMessage":"Send Message",
+    "contact_social-description-1":"Does not send emails",
+    "contact_social-description-2":" Write me on my social networks",
+    "labelName":"First Name",
+    "labelEmail":"Email Address",
+    "labelSubject":"Subject",
+    "labelMessage":"Message"
+
+  }
+ }
