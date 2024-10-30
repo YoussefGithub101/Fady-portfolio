@@ -38,5 +38,84 @@
     "labelSubject":"Subject",
     "labelMessage":"Message"
 
+  },
+  "Resume":{
+    "Resume":"Resume",
+    "Experience":"Experience",
+    "Skills":"Skills",
+    "Education":"Education",
+    "Languages":"Languages",
+    "Experience_list":
+      [
+        {"title":"GoAraby Digital Marketing Agency Dubai (Senior Performance Media Buyer)",
+          "date":"Jul 2023- Present",
+          "points":["I lead the planning and execution of digital marketing campaigns on platforms like social media and Google Ads.",
+                      "Design targeted strategies to meet client goals, leveraging market insights.",
+                      "Campaign Management & Optimization: Oversee and adjust social media and Google Ads campaigns to maximize performance.",
+                      "Website Analysis: Analyze client websites to identify improvements that enhance user experience and conversions.",
+                      "Client Collaboration: Conduct monthly performance reviews and plan future campaigns with clients.",
+                      "Content & Design Oversight: Create compelling ad copy and collaborate with designers to ensure brand alignment."
+          ]
+          
+        },{
+          "title":"Taif Al Almas Trading est (Senior media buyer)",
+          "date":"Sep 2022",
+          "points":["creating and implementing advertising campaigns across a range of digital platforms, including Google Ads, Snapchat Ads, Instagram, and TikTok.",
+                    "crafting compelling ad content that resonates with our target audience and developing strategies that maximize ROI and drive business growth.",
+                    "write blog content for our company website, helping to establish our brand as a thought leader in the e-commerce industry."
+          ]
+        }
+        ,{
+          "title":"Media Bubble (media buyer)",
+          "date":"Apr 2022- Aug 2022",
+          "points":["integrating digital marketing assets.",
+                    "creating online content, commissioning freelance copywriters.",
+                    "driving brand awareness, and coordinating digital marketing campaigns."
+          ]
+        }
+        ,{
+          "title":"10D Digital Marketing Agency (Junior Media Buyer)",
+          "date":"Nov 2021 - Apr 2022",
+          "points":["Help identify target audiences and plan media campaigns Compare and negotiate rates, ad space.",
+                    "airtime Optimize plans and budgets according to the best media.",
+                    "mix Prepare schedules and adjust when needed Experiment with new platforms and channels.",
+                    "Ensure ads are creative and displayed appropriately Monitor costs and return on investment (ROI) Report to clients and build long-term relationships"
+          ]
+        }
+        ,{
+          "title":"OTM Marketing Agency (Digital Marketing Specialist)",
+          "date":"Nov 2020 - Nov 2021",
+          "points":["helping maintain a brand by working on marketing campaigns.",
+                    "performing market research, strategizing with other marketing professionals.",
+                    "creating content to aid in the success of marketing campaign."
+           ]
+        }
+      ],
+      "Skill_list": [
+    "Facebook ads Marketing",
+    "Google ads",
+    "Tiktok ads",
+    "LinkedIn Ads",
+    "Google Tag Manager",
+    "SEO",
+    "Media Planning",
+    "Marketing Strategy",
+    "Monitor costs and return on investment (ROI)",
+    "E-commerce marketing",
+    "Real estate marketing",
+    "Analyzes ads results",
+    "Lead generation",
+    "Google data studio",
+    "Ad copywriter",
+    "Digital marketing",
+    "Managing online stores",
+    "Social media marketing",
+    "Email marketing",
+    "Google Analytics",
+    "Mobile marketing",
+    "Optimize the landing page",
+    "Funnel marketing"
+  ]
+    
   }
  }
