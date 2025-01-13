@@ -1,114 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Cairo:wght@200..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+/*=============== Arabic language ===============*/
+body.AR {
+  font-family: "Cairo", sans-serif;
+  /*=============== Header ===============*/
+  @media screen and (min-width: 1150px) {
+    .dropdown2 {
+      text-align: right;
 
- /*=============== Arabic language ===============*/
- body.AR{
- 
-    /*=============== Home ===============*/
-    .home{
-     direction: rtl;
- 
- 
-     .home__discription b {
-       background: linear-gradient(-90deg, hsla(14, 98%, 50%, 0.3), hsla(14, 98%, 50%, 0));
-     }
- 
-   .home__discription {
-  
-     padding-right: 3rem;
-   }
-   .home__discription::after {
-     content: "";
-     right: 0;
-   }
- 
- 
-  
-  
+      li {
+        padding-right: 2.5rem;
+      }
+      i,
+      .svg-ads {
+        margin-right: 1rem;
+      }
     }
- 
+  }
+
+  /*=============== Home ===============*/
+  .home {
+    direction: rtl;
+
+    .home__discription b {
+      background: linear-gradient(
+        -90deg,
+        hsla(14, 98%, 50%, 0.3),
+        hsla(14, 98%, 50%, 0)
+      );
+    }
+
+    .home__discription {
+      padding-right: 3rem;
+    }
+    .home__discription::after {
+      content: "";
+      right: 0;
+    }
+  }
+
+  @media screen and (min-width: 1150px) {
+    .home__arrow {
+      right: -8rem;
+      rotate: -20deg;
+    }
+    .home__shadow {
+      right: 1.25rem;
+      bottom: -1.25rem;
+      border: 6px solid var(--black-color);
+    }
+    .home__Line {
+      right: -15rem;
+      rotate: 90deg;
+    }
+    .home__social {
+      right: initial;
+      left: -6rem;
+    }
+    .home__perfil .geometric-box {
+      right: -0.7rem;
+    }
+  }
+
+  /*=============== About Me ===============*/
+  .about {
+    direction: rtl;
+    .about__description {
+      padding-right: 1rem;
+    }
+    .about__description::after {
+      right: -0.5rem;
+    }
+
     @media screen and (min-width: 1150px) {
-     .home__arrow {
-       right: -8rem;
-       rotate: -20deg;
-     }
-     .home__shadow {
-       right: 1.25rem;
-       bottom: -1.25rem;
-       border: 6px solid var(--black-color);
-     }
-     .home__Line {
-       right: -15rem;
-       rotate: 90deg;
-     }
-     .home__social {
-       right: initial;
-       left: -6rem;
-     }
-       .home__perfil .geometric-box {
-       right: -0.7rem;
-     }
- 
+      .about__description {
+        padding-right: 0;
+      }
+      .about__description::after {
+        right: -3rem;
+      }
+    }
+  }
+
+  /*=============== contact ===============*/
+  .contact {
+    direction: rtl;
+
+    .contant__data {
+      margin-left: 0;
+      margin-right: auto; /* ---- */
+    }
+    .contant__data .geometric-box {
+      right: auto;
+      left: 2.5rem; /* ----- */
+    }
+    .contact__label {
+      left: auto;
+      right: 10px; /* -------- */
     }
 
+    .contact__message {
+      right: 0; /* ----- */
+      left: auto;
+    }
+  }
 
-     /*=============== About Me ===============*/
-     .about{
-        direction: rtl;
-        .about__description{
-            padding-right: 1rem;
-        }
-        .about__description::after {
-            right: -0.50rem;
-          }
+  @media screen and (min-width: 1150px) {
+    .contant__data {
+      margin: 7.5rem 8rem 0 0 !important; /* ---- */
+    }
+    .contact__social {
+      margin-left: auto;
+      margin-right: 8rem; /* ----- */
+    }
+    .contant__data .section__title-2 {
+      margin: 0 0 3rem;
+      transform: translateX(6.5rem) !important;
+    }
+  }
 
+  .services {
+    direction: rtl;
+    .section__title-3::after {
+      content: "";
+      right: 0%;
+      left: -8px;
+    }
+  }
 
+  .Resume-Header {
+    .p-accordion-header-text {
+      padding-right: 10px;
+      padding-left: 0;
 
-          @media screen and (min-width: 1150px){
-            .about__description{
-                padding-right: 0;
-            }
-            .about__description::after {
-                right: -3rem;
-              }
-          }
-     }
-
-/*=============== contact ===============*/
-     .contact{
-      direction: rtl;
-
-      .contant__data{
-        margin-left:0;
-        margin-right: auto; /* ---- */
+      i {
+        padding-right: 10px;
+        padding-left: 0;
       }
-      .contant__data .geometric-box{
-        right: auto;
-        left: 2.5rem; /* ----- */
-      }
-      .contact__label{
-        left: auto;
-        right: 10px; /* -------- */
-      }
+    }
 
-      .contact__message{
-        right: 0; /* ----- */
-        left: auto;
-      }
-     }
-     
-     @media screen and (min-width: 1150px){
-  
-      .contant__data{
-        
-        margin: 7.5rem 8rem 0 0 !important; /* ---- */
-       }
-       .contact__social{
-        margin-left: auto;
-        margin-right: 8rem; /* ----- */
- 
-       }
-       .contant__data .section__title-2{
-        margin: 0 0 3rem;
-        transform:  translateX(6.5rem) !important;
-       }
-     }
- }
+    ul {
+      padding-right: 2rem;
+      padding-left: 0;
+      /* margin-bottom: 1rem; */
+    }
+    li {
+      padding-left: 1rem;
+      padding-right: 0;
+    }
+  }
+
+  .nested-list-items > li::before {
+    right: -20px;
+    left: 0;
+  }
+
+  .ul-parent > li::after {
+    left: 0px;
+    right: -25px;
+  }
+  .ul-parent > li:not(:last-child)::before {
+    right: -22px;
+    left: 0px;
+  }
+}
